@@ -1,0 +1,6 @@
+[versions]
+json-path = "2.9.0"
+
+[libraries]
+javway-json-path = {module = "com.jayway.jsonpath:json-path", version.ref = "json-path"}
+

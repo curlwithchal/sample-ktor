@@ -1,0 +1,21 @@
+
+GET http://localhost:8080
+
+###
+GET http://localhost:8080/cat
+
+# Note: static content parameter -> invoke url path/sample.html
+###
+GET http://localhost:8080/dog/sample.html
+
+#Error Handler Status Page
+###
+GET http://localhost:8080/error-test
+
+#Tasks
+###
+GET http://localhost:8080/tasks/byPriority/Medium
+Accept: application/json
+
+###
+DELETE http://localhost:8080/tasks/gardening
